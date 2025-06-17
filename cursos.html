@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rede do Conhecimento</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Montserrat:wght@700;900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="area-admin">
+            <a href="index.html" class="link-voltar">← Voltar para a Página Inicial</a>
+        </div>
+        
+        <h1>Rede do Conhecimento</h1>
+        <p>Essa plataforma reúne cursos gratuitos e acessíveis para quem quer aprender informática, Excel, montar um currículo e outras habilidades básicas para o mercado de trabalho.</p>
+
+        <section id="etapa1" class="etapa ativa" data-etapa="1">
+            <h2>Etapa 1: Informática Básica</h2>
+            <p>Comece aprendendo os fundamentos essenciais da informática. Essa etapa inclui cursos introdutórios para quem está começando do zero.</p>
+            
+            <div class="progresso-container progresso-etapa">
+                <label for="progresso-etapa-1">Progresso da Etapa:</label>
+                <progress id="progresso-etapa-1" max="100" value="0"></progress>
+                <span id="progresso-etapa-1-texto">0%</span>
+            </div>
+
+            <div class="video-container">
+                <div class="video-card abrir-modal" data-playlist-src="https://www.youtube.com/embed/videoseries?si=pAaWmnKuvuR7hGUE&list=PL-QAz5R5Rlm7wn20xLTIr84gbS2XkzqEZ">
+                    <img src="https://i.imgur.com/C1K7Mgn.jpg" alt="Thumbnail do curso de Informática Básica" class="video-thumbnail">
+                    <p>Curso 1: Introdução a Informática Básica - Iniciante</p>
+                    <div class="controle-assistido">
+                        <input type="checkbox" id="video1-etapa1" class="checkbox-assistido">
+                        <label for="video1-etapa1" class="label-assistido">Marcar como visto</label>
+                    </div>
+                </div>
+                
+                <div class="video-card abrir-modal" data-playlist-src="https://www.youtube.com/embed/videoseries?si=m-gk-BxfpLjdPO2c&list=PLvLgasm0pBrzE2nzJpqTAShV3V1V-d753">
+                    <img src="https://i.imgur.com/1eV7h6u.jpg" alt="Thumbnail do curso de Dicas de Informática" class="video-thumbnail">
+                    <p>Curso 2: Dicas de Informática</p>
+                    <div class="controle-assistido">
+                        <input type="checkbox" id="video2-etapa1" class="checkbox-assistido">
+                        <label for="video2-etapa1" class="label-assistido">Marcar como visto</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="botoes-etapa">
+                <button class="voltar-etapa">← Etapa Anterior</button>
+                <button class="concluir-etapa escondido">✔ Concluir Etapa</button>
+                <button class="pular-etapa">⏭ Pular Etapa</button>
+            </div>
+        </section>
+
+        <section id="etapa2" class="etapa" data-etapa="2">
+            <h2>Etapa 2: Introdução à Programação</h2>
+            <p>Agora que você tem uma base, vamos mergulhar na lógica de programação.</p>
+
+            <div class="progresso-container progresso-etapa">
+                <label for="progresso-etapa-2">Progresso da Etapa:</label>
+                <progress id="progresso-etapa-2" max="100" value="0"></progress>
+                <span id="progresso-etapa-2-texto">0%</span>
+            </div>
+
+            <div class="video-container">
+                <div class="video-card abrir-modal" data-playlist-src="https://www.youtube.com/embed/videoseries?si=kB24wXzoBhIJRGG4&list=PLx4x_zx8csUjczg1qPHavU1vw1IkBcm40">
+                    <img src="https://i.imgur.com/hH2nE3y.jpg" alt="Thumbnail do curso de Lógica de Programação" class="video-thumbnail">
+                    <p>Curso: Lógica de Programação para Iniciantes</p>
+                    <div class="controle-assistido">
+                        <input type="checkbox" id="video1-etapa2" class="checkbox-assistido">
+                        <label for="video1-etapa2" class="label-assistido">Marcar como visto</label>
+                    </div>  
+                </div>
+            </div>
+
+            <div class="botoes-etapa">
+                <button class="voltar-etapa">← Etapa Anterior</button>
+                <button class="concluir-etapa escondido">✔ Concluir Etapa</button>
+                <button class="pular-etapa">⏭ Pular Etapa</button>
+            </div>
+        </section>
+
+        <section id="etapa3" class="etapa" data-etapa="3">
+            <h2>Etapa 3: Aprendendo Linguagens de Programação</h2>
+            <p>Escolha uma linguagem para começar ou explore todas!</p>
+            
+            <div class="progresso-container progresso-etapa">
+                <label for="progresso-etapa-3">Progresso da Etapa:</label>
+                <progress id="progresso-etapa-3" max="100" value="0"></progress>
+                <span id="progresso-etapa-3-texto">0%</span>
+            </div>
+            
+            <h3>JavaScript</h3>
+            <div class="video-container">
+                 <div class="video-card abrir-modal" data-playlist-src="https://www.youtube.com/embed/videoseries?si=NnARB275eRRQY-Np&list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1">
+                    <img src="https://i.imgur.com/vdRDEmc.jpg" alt="Thumbnail do curso de JavaScript" class="video-thumbnail">
+                    <p>Curso: JavaScript</p>
+                    <div class="controle-assistido">
+                        <input type="checkbox" id="video1-etapa3" class="checkbox-assistido">
+                        <label for="video1-etapa3" class="label-assistido">Marcar como visto</label>
+                    </div>
+                </div>
+            </div>
+
+            <h3>Python</h3>
+            <div class="video-container">
+                <div class="video-card abrir-modal" data-playlist-src="https://www.youtube.com/embed/videoseries?si=niqDIMLSk0xa0xwY&list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6">
+                    <img src="https://i.imgur.com/CHZp7r2.jpg" alt="Thumbnail do curso de Python" class="video-thumbnail">
+                    <p>Curso: Fundamentos de Python</p>
+                    <div class="controle-assistido">
+                        <input type="checkbox" id="video2-etapa3" class="checkbox-assistido">
+                        <label for="video2-etapa3" class="label-assistido">Marcar como visto</label>
+                    </div>
+                </div>
+            </div>
+
+            <h3>HTML5 e CSS3</h3>
+            <div class="video-container">
+                <div class="video-card abrir-modal" data-playlist-src="https://www.youtube.com/embed/videoseries?si=pZ3Fv9TXh6FMeAkC&list=PLHz_AreHm4dlAnJ_jJtV29RFxnPHDuk9o">
+                    <img src="https://i.imgur.com/5A1Iqhr.jpg" alt="Thumbnail do curso de HTML e CSS" class="video-thumbnail">
+                    <p>Curso: Web com HTML5 e CSS3</p>
+                    <div class="controle-assistido">
+                        <input type="checkbox" id="video3-etapa3" class="checkbox-assistido">
+                        <label for="video3-etapa3" class="label-assistido">Marcar como visto</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="botoes-etapa">
+                <button class="voltar-etapa">← Etapa Anterior</button>
+                <button class="concluir-etapa escondido">✔ Concluir Etapa</button>
+                <button class="pular-etapa">⏭ Pular Etapa</button>
+                <a href="parabens.html" id="botao-pagina-final" class="concluir-etapa escondido">🏆 Ir para Página Final</a>
+            </div>
+        </section>
+
+        <div class="progresso-container progresso-geral">
+            <label for="progresso-geral">Progresso Geral:</label>
+            <progress id="progresso-geral" max="100" value="0"></progress>
+            <span id="progresso-geral-texto">0%</span>
+        </div>
+
+        <div id="modal-playlist" class="modal-background escondido">
+            <div class="modal-content">
+                <span id="fechar-modal" class="fechar-modal">×</span>
+                <div class="video-responsivo">
+                    <iframe id="iframe-playlist" width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
