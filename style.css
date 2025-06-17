@@ -47,20 +47,17 @@ h1,h2,h3{
 }
 
 .video-card {
-    /* Estilos que você já tem */
     border: 1px solid var(--bordaescura);
     border-radius: 12px;
     padding: 15px;
     margin-bottom: 20px;
     background-color: var(--fundoescuro);
     
-    /* Regras de alinhamento */
     display: flex;
     flex-direction: column;
-    
-    /* ADIÇÕES FINAIS PARA FORÇAR O COMPORTAMENTO */
-    flex-grow: 1; /* Diz ao card para crescer e ocupar o espaço na linha */
-    flex-basis: 300px; /* Sugere uma largura base para o card, ajudando no alinhamento */
+
+    flex-grow: 1; 
+    flex-basis: 300px; 
 }
 
 .video-card p{
